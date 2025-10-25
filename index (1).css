@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Pastel Base Colors */
+    --background: 280 40% 97%;
+    --foreground: 280 20% 25%;
+
+    /* Pastel Color Palette */
+    --baby-pink: 340 80% 88%;
+    --lavender: 270 60% 85%;
+    --mint: 150 50% 85%;
+    --sky-blue: 200 70% 85%;
+    --peach: 20 80% 85%;
+    --soft-purple: 280 50% 80%;
+    --pastel-gray: 240 10% 70%;
+
+    /* Semantic Tokens */
+    --card: 0 0% 98%;
+    --card-foreground: 280 20% 25%;
+
+    --primary: 270 60% 85%;
+    --primary-foreground: 280 20% 25%;
+
+    --secondary: 340 80% 88%;
+    --secondary-foreground: 280 20% 25%;
+
+    --accent: 150 50% 85%;
+    --accent-foreground: 280 20% 25%;
+
+    --muted: 240 10% 92%;
+    --muted-foreground: 240 10% 50%;
+
+    --destructive: 0 70% 85%;
+    --destructive-foreground: 280 20% 25%;
+
+    --border: 280 20% 90%;
+    --input: 280 20% 95%;
+    --ring: 270 60% 85%;
+
+    --radius: 1rem;
+
+    /* Custom Shadows */
+    --shadow-soft: 0 4px 20px -2px hsl(280 30% 80% / 0.3);
+    --shadow-glow: 0 0 30px hsl(270 60% 85% / 0.4);
+    --shadow-button: 0 2px 10px hsl(280 20% 70% / 0.2);
+
+    /* Gradients */
+    --gradient-bg: linear-gradient(135deg, hsl(280 40% 97%), hsl(200 40% 96%));
+    --gradient-display: linear-gradient(180deg, hsl(0 0% 100% / 0.8), hsl(280 30% 98% / 0.9));
+    --gradient-number: linear-gradient(135deg, hsl(200 70% 88%), hsl(200 70% 92%));
+    --gradient-operator: linear-gradient(135deg, hsl(340 80% 88%), hsl(340 80% 92%));
+    --gradient-equals: linear-gradient(135deg, hsl(150 50% 85%), hsl(150 50% 90%));
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-['Poppins',sans-serif];
+    background: linear-gradient(135deg, hsl(280 40% 97%), hsl(200 40% 96%));
+    background-attachment: fixed;
+  }
+}
