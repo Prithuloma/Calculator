@@ -1,11 +1,8 @@
-🎀 Pastel Calculator
+Calculator
 
 A cute and minimal Pastel Themed Calculator designed for quick and smooth basic arithmetic operations.
-Built with a clean UI, soft pastel colors, and fully responsive design ✨
 
-🌈 Features
-
-✅ Aesthetic pastel color palette
+ Features
 
 ✅ Responsive design (works on all devices)
 
@@ -27,7 +24,7 @@ Percentage (%)
 
 All Clear (AC)
 
-🧁 Tech Stack
+Tech Stack
 Technology	Purpose
 HTML	Structure of the calculator
 CSS	Cute pastel UI styling
@@ -38,14 +35,14 @@ JavaScript	Button & calculation logic
 
 Example style: Soft pinks, purples, mint greens & baby blues with rounded neumorphic buttons.
 
-📂 Folder Structure
-📦 Pastel-Calculator
- ┣ 📜 index.html
- ┣ 🎨 style.css
- ┣ ⚙️ script.js
- ┗ 📘 README.md
+ Folder Structure
+ Pastel-Calculator
+ ┣  index.html
+ ┣  style.css
+ ┣  script.js
+ ┗  README.md
 
-🚀 How to Use
+ How to Use
 
 Clone this repository
 
@@ -60,11 +57,11 @@ cd pastel-calculator
 Run the project
 → Just open index.html in your browser!
 
-💡 Future Improvements
+ Future Improvements
 
 Scientific calculator mode
 
-Dark mode (Still pastel but deeper shades 🌙)
+Dark mode (Still pastel but deeper shades )
 
 Sound & vibration click feedback
 
@@ -72,22 +69,16 @@ Keyboard input support
 
 Mobile App version
 
-🤝 Contributing
+Contributing
 
 Contributions are always welcome!
 Feel free to open an issue or submit a pull request.
 
-📜 License
-
-This project is licensed under the MIT License.
-
-💜 Author
+Author
 
 Your Name
 
-🐙 GitHub: Prithuloma
+GitHub: Prithuloma
 
 
-Is this conversation helpful so far?
 
-ChatGPT can make mistakes. Check important info. See Cookie Preferences.
